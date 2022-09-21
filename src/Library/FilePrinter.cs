@@ -8,7 +8,7 @@ using System.IO;
 
 namespace Full_GRASP_And_SOLID.Library
 {
-    public class FilePrinter : AllInOnePrinter
+    public class FilePrinter : IAllInOnePrinter
     {
         public void PrintRecipe(Recipe recipe)
         {
